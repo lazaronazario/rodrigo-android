@@ -18,7 +18,6 @@ public class PrincipalActivity extends AppCompatActivity {
     Button BTNOK;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +38,7 @@ public class PrincipalActivity extends AppCompatActivity {
               double gasolina = Double.parseDouble(editTextGas.getText().toString());
               double alcool = Double.parseDouble(editTextAlco.getText().toString());
 
-              String Resultado = "Melhor opção foi:" ;
+              String Resultado ;
 
               if((gasolina * 0.7)> alcool){
                   Resultado = "Àlcool";
